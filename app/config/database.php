@@ -48,10 +48,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => '10.129.204.163', //$_ENV['VSS_DB_HOST'],
-			'database'  => 'verotour_backend_vss', //$_ENV['VSS_DB_NAME'],
-			'username'  => 'veroback', //$_ENV['VSS_DB_USER'],
-			'password'  => 'ItalianoVero!!', //$_ENV['VSS_DB_PASSWORD'],
+			'host'      => //$_ENV['VSS_DB_HOST'],
+			'database'  => //$_ENV['VSS_DB_NAME'],
+			'username'  => //$_ENV['VSS_DB_USER'],
+			'password'  => //$_ENV['VSS_DB_PASSWORD'],
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
